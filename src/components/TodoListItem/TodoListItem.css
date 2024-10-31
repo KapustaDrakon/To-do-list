@@ -1,0 +1,43 @@
+.item {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.item__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.item__label {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.item__button-complete {
+  padding: 0;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background: url('../../assets/images/check-svgrepo-com.svg') no-repeat center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.item__button-delete {
+  padding: 0;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background: url('../../assets/images/trash-svgrepo-com.svg') no-repeat center;
+  cursor: pointer;
+}

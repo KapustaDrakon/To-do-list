@@ -1,0 +1,21 @@
+.todolist__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 700px;
+  background: #666666;
+  padding: 15px 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.todolist__elements {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}

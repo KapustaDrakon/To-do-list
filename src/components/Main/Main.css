@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__button-logout {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

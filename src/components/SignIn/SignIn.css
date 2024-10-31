@@ -1,0 +1,54 @@
+.form {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  background: #666666;
+  border-radius: 20px;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form__input {
+  margin-bottom: 10px;
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
+  outline: none;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form__label {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.form__text {
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.form__button-submit {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form__input_wrong {
+  border: 1px solid #ff0000;
+}

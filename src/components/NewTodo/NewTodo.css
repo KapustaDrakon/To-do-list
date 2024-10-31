@@ -1,0 +1,62 @@
+.newtodo__container {
+  width: 700px;
+  background: #666666;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.newtodo__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.newtodo__button-submit {
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: #3e5397;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.newtodo__input-text {
+  border: none;
+  border-bottom: 2px solid #5e5e5e;
+  outline: none;
+  height: 20px;
+  background: inherit;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.newtodo__input-text::placeholder {
+  color: #ffffff;
+}
+
+.newtodo__button-clear {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: #973e3e;
+  -webkit-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.newtodo__button-clear_icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background: url('../../assets/images/list-ul-svgrepo-com.svg') no-repeat center;
+}
