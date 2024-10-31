@@ -5,18 +5,6 @@ import { SignIn } from '../SignIn/SignIn';
 import './App.css';
 
 function App() {
-	let idx = 0;
-	// let initialState = [
-	// 	{ label: 'Проснуться', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Помяться', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Поесть', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Потянуться', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Пукнуть', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Погулять', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Почитать', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Посмеяться', edit: false, completed: false, deleted: false, id: idx++ },
-	// 	{ label: 'Поспать', edit: false, completed: false, deleted: false, id: idx++ },
-	// ];
 	const [data, setData] = useState([]);
 	const [filter, setFilter] = useState('active');
 	const [signIn, setSignIn] = useState(false);
